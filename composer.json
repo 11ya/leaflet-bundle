@@ -1,0 +1,31 @@
+{
+    "name":        "fanforfun/leaflet-bundle",
+    "type":        "symfony-bundle",
+    "description": "Leaflet (any version) for Symfony2",
+    "keywords":    ["leaflet", "javascript", "map", "tiles"],
+    "homepage":    "http://leafletjs.com",
+    "license":     "BSD",
+    "authors":     [
+        {
+            "name":     "Vladimir Agafonkin",
+            "email":    "agafonkin@gmail.com"
+        },
+        {
+            "name":     "Sergey Bondar",
+            "email":    "msnre@yandex.ru"
+        }
+    ],
+    "require":     {
+        "php": ">=5.3.2",
+        "leaflet/leaflet": "*"
+    },
+    "require-dev":     {
+        "symfony/framework-bundle": ">=2.1"
+    },
+    "autoload":    {
+        "psr-0": {
+            "Fanforfun\\LeafletBundle": ""
+        }
+    },
+    "target-dir":  "Fanforfun/LeafletBundle"
+}
