@@ -13,6 +13,10 @@
         {
             "name":     "Sergey Bondar",
             "email":    "msnre@yandex.ru"
+        },
+        { 
+            "name":     "Ilya Vertakov",
+            "email":    "ilya.saratov@gmail.com"
         }
     ],
     "require":     {
